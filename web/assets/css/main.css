@@ -1,0 +1,50 @@
+/**
+ * Body CSS
+ */
+html,
+body {
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+html,
+body,
+input,
+textarea,
+buttons {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+
+/**
+ * Header CSS
+ */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+h1 {
+  margin: 10px
+}
+
+
+/**
+ * Content CSS
+ */
+#content-wrapper {
+  min-height: 100%;
+}
+
+.mui-appbar {
+  background-color: #5b5b5b;
+}
+
+#display {
+	margin-top: 10%;
+}
